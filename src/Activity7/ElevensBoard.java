@@ -219,7 +219,8 @@ public class ElevensBoard {
      * @return true if the board entries in selectedCards
      *              contain an 11-pair; false otherwise.
      */
-    private boolean containsPairSum11(List<Integer> selectedCards) {
+    private boolean containsPairSum11(List<Integer> selectedCards)
+    {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 9 *** */
     }
 
