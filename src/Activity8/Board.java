@@ -13,17 +13,17 @@ public abstract class Board {
     /**
      * The cards on this board.
      */
-    private Card[] cards;
+    public Card[] cards;
 
     /**
      * The deck of cards being used to play the current game.
      */
-    private Deck deck;
+    public Deck deck;
 
     /**
      * Flag used to control debugging print statements.
      */
-    private static final boolean I_AM_DEBUGGING = false;
+    public static final boolean I_AM_DEBUGGING = false;
 
     /**
      * Creates a new <code>Board</code> instance.
@@ -178,7 +178,7 @@ public abstract class Board {
     /**
      * Deal cards to this board to start the game.
      */
-    private void dealMyCards() {
+    public void dealMyCards() {
         for (int k = 0; k < cards.length; k++) {
             cards[k] = deck.deal();
         }
